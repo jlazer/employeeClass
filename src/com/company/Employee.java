@@ -20,8 +20,8 @@ public class Employee {
     public void setIdNumber(int idNumber) {
         this.idNumber = idNumber;
     }
-    public int getDepartment() {
-        return idNumber;
+    public String getDepartment() {
+        return department;
     }
     public void setDepartment(String department) {
         this.department = department;
@@ -30,6 +30,7 @@ public class Employee {
         return position;
     }
     public void setPosition(String position) {
+
         this.position = position;
     }
 
